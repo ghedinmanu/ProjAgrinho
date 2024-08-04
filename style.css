@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212121a8;
+  }
+  
+  a {
+    color: #f9f6f6;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #0f0e0e95;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #262926;
+    color: rgb(155, 173, 53);
+    text-decoration: none;
+  }
+  
+  /* Product Highlights Styles */
+  .destaques {
+    padding: 40px 20px;
+  }
+  
+  .card {
+    background-color: rgb(50, 49, 49);
+    box-shadow: 0 2px 5px rgba(238, 226, 226, 0.913);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #ffff;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #ffff;
+    line-height: 1.5;
+  } 
+  
+  .card a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+  }
+  
+  /* Brand Story Styles */
+  .historia {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .historia img {
+    max-width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  /* Traditional Recipes Styles */
+  .receitas {
+    padding: 40px 20px;
+  }
+  
+  .receita {
+    background-color:  rgb(50, 49, 49);;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .receita img {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  
+  .receita h3 {
+    font-size: 18px;
+    color: #ffff;
+    margin-bottom: 5px;
+  }
+  
+  .receita p {
+    font-size: 14px;
+    color:#ffff
+  }
+  
+  .receita a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: rgb(23, 21, 21);
+    text-decoration: none;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  

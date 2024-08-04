@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Gastronomia e Produtos Artesanais</title>
+  <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+         <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="história.html">Histórias</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+    </nav>
+    <div class="hero">
+      <h1>Entre em Contato</h1>
+      <h2>Fale Conosco e Tire suas Dúvidas</h2>
+    </div>
+  </header>
+
+  <main>
+    <section class="contato">
+      <div class="informacoes">
+        <h2>Informações de Contato</h2>
+        <p><strong>Telefone:</strong> (55) 1234-5678</p>
+        <p><strong>Email:</strong> contato@seudominio.com.br</p>
+        <p><strong>Endereço:</strong> Sua Rua, Número - Bairro, Cidade - UF</p>
+        <p><strong>Horário de Atendimento:</strong> Segunda à Sexta, das 9h às 18h</p>
+      </div>
+
+             <form action="enviar.php" method="post"></form>
+              <input type="text" name="nome" placeholder="Nome Completo" required>
+        <input type="email" name="email" placeholder="Seu Email" required>
+        <input type="text" name="assunto" placeholder="Assunto da Mensagem" required>
+        <textarea name="mensagem" placeholder="Escreva sua Mensagem" required></textarea>  
+ <button type="submit">Enviar Mensagem</button>
+</form>
+    </section>
+  </main>
+</body>
+</html>
